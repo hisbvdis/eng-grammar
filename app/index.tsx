@@ -11,7 +11,7 @@ export default function RootPage() {
       <Container style={styles.container}>
         <Stack.Screen options={{headerShown: false}}/>
         <Text style={styles.heading}>Полиглот</Text>
-        <Link href="lessons" asChild style={{width: "100%"}}><Btn>ВОЙТИ</Btn></Link>
+        <Link href="/lessons" asChild style={{width: "100%"}}><Btn>ВОЙТИ</Btn></Link>
       </Container>
     </ImageBackground>
   )
