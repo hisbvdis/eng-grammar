@@ -1,0 +1,17 @@
+[
+  {
+    "number": "1",
+    "title": "Форма глагола",
+    "exercises": [
+      { "id": 0, "question": "Я хожу в школу", "answer": "I go to school" },
+      { "id": 1, "question": "Я не праздную Новый год", "answer": "I don't celebrate New Year" }
+    ]
+  },
+  {
+    "number": "2.1",
+    "title": "Объектные местоимения",
+    "exercises": [
+      { "id": 0, "question": "Я хожу в школу", "answer": "I go to school" },
+    ]
+  }
+]

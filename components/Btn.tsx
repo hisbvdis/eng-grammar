@@ -1,19 +1,16 @@
 import { useState } from "react";
-import { Pressable, PressableProps, StyleSheet, Text, ViewStyle } from "react-native";
+import { StyleSheet, Text, ViewStyle, TouchableHighlight, TouchableHighlightProps } from "react-native";
 
 
-export default function Btn(props:PressableProps) {
-  const [bgColor, setBgColor] = useState("#0061C2");
-
+export default function Btn(props:TouchableHighlightProps) {
   return (
-    <Pressable
+    <TouchableHighlight
       {...props}
-      style={[styles.button, {backgroundColor: bgColor}, props.style as ViewStyle]}
-      onPressIn={() => setBgColor("#0288d1")}
-      onPressOut={() => setBgColor("#0061C2")}
+      style={[styles.button, props.style as ViewStyle]}
+      underlayColor="#0288d1"
     >
       <Text style={styles.button__text}>{typeof props.children === "string" && props.children}</Text>
-    </Pressable>
+    </TouchableHighlight>
   )
 }
 
