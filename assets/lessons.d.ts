@@ -1,4 +1,4 @@
-type Lessons = Lesson[];
+export type Lessons = Lesson[];
 
 interface Lesson {
   number: string;
@@ -11,5 +11,3 @@ interface Exercise {
   question: string;
   answer: string;
 }
-
-export default Lessons;

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link, Stack } from "expo-router";
 import { ImageBackground, StyleSheet, Text } from "react-native";
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -6,7 +7,6 @@ import Btn from "@/components/Btn";
 import Container from "@/components/Container";
 // -----------------------------------------------------------------------------
 import lessonsStorage from "../assets/lessons.json";
-import { useEffect } from "react";
 
 
 export default function RootPage() {

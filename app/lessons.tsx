@@ -1,10 +1,10 @@
-import { Stack } from "expo-router";
+import { Link, Stack } from "expo-router";
 import { useEffect, useState } from "react";
-import { FlatList, StyleSheet, Text, View, TouchableHighlight } from "react-native";
-import AsyncStorage from "@react-native-async-storage/async-storage";
 import { AntDesign } from '@expo/vector-icons';
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import { FlatList, StyleSheet, Text, View, TouchableHighlight } from "react-native";
 // -----------------------------------------------------------------------------
-import type Lessons from "@/assets/lessons";
+import type { Lessons } from "@/assets/lessons";
 
 
 export default function LessonsPage() {
@@ -24,15 +24,17 @@ export default function LessonsPage() {
         style={styles.list}
         data={lessons}
         renderItem={({item}) => (
-          <TouchableHighlight underlayColor="#fff">
-            <View style={styles.list__item}>
-              <View>
-                <Text style={styles.list__Title}>Урок {item.number}</Text>
-                <Text>{item.title}</Text>
+          <Link href={`lesson/${item.number}`} asChild>
+            <TouchableHighlight underlayColor="#fff">
+              <View style={styles.list__item}>
+                <View>
+                  <Text style={styles.list__Title}>Урок {item.number}</Text>
+                  <Text>{item.title}</Text>
+                </View>
+                <AntDesign name="right" size={15} color="black" />
               </View>
-              <AntDesign name="right" size={15} color="black" />
-            </View>
-          </TouchableHighlight>
+            </TouchableHighlight>
+          </Link>
         )}
       />
     </View>
