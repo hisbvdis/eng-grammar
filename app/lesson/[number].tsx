@@ -3,11 +3,15 @@ import { Stack, useLocalSearchParams } from "expo-router";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 // -----------------------------------------------------------------------------
 import type { Lesson, Lessons } from "@/assets/lessons";
+import { View, useWindowDimensions } from "react-native";
+import RenderHTML from "react-native-render-html";
+import Container from "@/components/Container";
 
 
 export default function LessonsPage() {
   const params = useLocalSearchParams();
   const [ lesson, setLesson ] = useState<Lesson>();
+  const { width } = useWindowDimensions();
 
   useEffect(() => {(async () => {
     const lessonsJson = await AsyncStorage.getItem("lessons");
@@ -18,6 +22,9 @@ export default function LessonsPage() {
   })()}, [])
   
   return (
-    <Stack.Screen options={{title: `${params.number}. ${lesson?.title}`}}/>
+    <Container>
+      <Stack.Screen options={{title: `${params.number}. ${lesson?.title}`}}/>
+      <RenderHTML source={{html: lesson?.theory ?? ""}} contentWidth={width}/>
+    </Container>
   )
 }

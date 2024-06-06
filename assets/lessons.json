@@ -2,6 +2,7 @@
   {
     "number": "1",
     "title": "Форма глагола",
+    "theory": "<table><tbody><tr><td></td><td>Вопрос</td><td>Утверждение</td><td>Отрицание</td></tr><tr><td>Будущее</td><td><table><tr><td rowspan=\"3\">Will</td><td>I</td><td rowspan=\"3\">I</td></tr><tr><td>He<br/>She<br/>It</td></tr><tr><td>We<br/>You<br/>They</td></tr></table></td></tr></tbody></table>",
     "exercises": [
       { "id": 0, "question": "Я хожу в школу", "answer": "I go to school" },
       { "id": 1, "question": "Я не праздную Новый год", "answer": "I don't celebrate New Year" }
@@ -11,7 +12,7 @@
     "number": "2.1",
     "title": "Объектные местоимения",
     "exercises": [
-      { "id": 0, "question": "Я хожу в школу", "answer": "I go to school" },
+      { "id": 0, "question": "Я хожу в школу", "answer": "I go to school" }
     ]
   }
 ]

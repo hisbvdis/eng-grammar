@@ -4,6 +4,7 @@ interface Lesson {
   number: string;
   title: string;
   exercises: Exercise[];
+  theory: string;
 }
 
 interface Exercise {
