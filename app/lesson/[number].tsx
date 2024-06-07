@@ -4,7 +4,6 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 // -----------------------------------------------------------------------------
 import type { Lesson, Lessons } from "@/assets/lessons";
 import { View, useWindowDimensions } from "react-native";
-import RenderHTML from "react-native-render-html";
 import Container from "@/components/Container";
 
 
@@ -20,11 +19,10 @@ export default function LessonsPage() {
     const lessonObject = lessonsArray.find((lesson) => lesson.number === params.number);
     setLesson(lessonObject);
   })()}, [])
-  
+
   return (
     <Container>
       <Stack.Screen options={{title: `${params.number}. ${lesson?.title}`}}/>
-      <RenderHTML source={{html: lesson?.theory ?? ""}} contentWidth={width}/>
     </Container>
   )
 }
