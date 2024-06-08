@@ -1,11 +1,12 @@
 import WebView from "react-native-webview";
 import { useEffect, useState } from "react";
-import { Stack, useSegments } from "expo-router";
+import { Link, Stack, useSegments } from "expo-router";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 // -----------------------------------------------------------------------------
 import Container from "@/components/Container";
 // -----------------------------------------------------------------------------
-import { Lesson, Lessons } from "@/assets/lessons";
+import { Lesson, Lessons } from "@/assets/types";
+import Btn from "@/components/Btn";
 
 
 export default function Lesson1() {
@@ -34,7 +35,7 @@ export default function Lesson1() {
     table {
       border-collapse: collapse;
       table-layout: fixed;
-      inline-size: 600px;
+      inline-size: 650px;
     }
     td {
       padding: 5px;
@@ -76,7 +77,6 @@ export default function Lesson1() {
   <title>Document</title>
 </head>
 <body>
-  <h3>1.Схема образования предложений</h3>
   <div style="overflow-y: scroll; max-width: 100%;">
     <table>
       <tbody>
@@ -181,6 +181,12 @@ export default function Lesson1() {
   </div>
 </body>
 </html>`}} style={{backgroundColor: "transparent"}}/>
+      <Link href={`/quiz?lessonNumber=${lesson?.number}&type=theory`} asChild>
+        <Btn>Вопросы по теории</Btn>
+      </Link>
+      <Link href={`/quiz?lessonNumber=${lesson?.number}&type=exercises`} asChild style={{marginTop: 20}}>
+        <Btn>Упражнения</Btn>
+      </Link>
     </Container>
   )
 }

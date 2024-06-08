@@ -5,7 +5,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 // -----------------------------------------------------------------------------
 import Container from "@/components/Container";
 // -----------------------------------------------------------------------------
-import { Lesson, Lessons } from "@/assets/lessons";
+import { Lesson, Lessons } from "@/assets/types";
 
 
 export default function Lesson1() {

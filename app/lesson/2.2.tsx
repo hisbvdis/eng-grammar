@@ -5,7 +5,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 // -----------------------------------------------------------------------------
 import Container from "@/components/Container";
 // -----------------------------------------------------------------------------
-import { Lesson, Lessons } from "@/assets/lessons";
+import { Lesson, Lessons } from "@/assets/types";
 
 
 export default function Lesson1() {
@@ -42,6 +42,9 @@ export default function Lesson1() {
     }
     col:nth-child(1) {
       background-color: #e5f5e6;
+    }
+    col:nth-child(2) {
+      background-color: #ffffff;
     }
   </style>
   <title>Document</title>

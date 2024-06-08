@@ -1,6 +1,6 @@
 export type Lessons = Lesson[];
 
-interface Lesson {
+export interface Lesson {
   number: string;
   title: string;
   exercises: Exercise[];
