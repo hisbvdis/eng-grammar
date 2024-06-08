@@ -3,8 +3,15 @@
     "number": "1",
     "title": "Форма глагола (актив)",
     "theory": [
-      { "id": 0, "question": "Формирование: Утверждение в Настоящем времени", "answer": "I paint.\nHe/She/It paints.\nWe/You/They paint." },
-      { "id": 1, "question": "Формирование: Утверждение в Настоящем времени", "answer": "I paint. He/She/It paints. We/You/They paint." }
+      { "id": 0, "question": "Как формируется 'Утверждение' в 'Настоящем' времени?", "answer": "I paint.\nHe/She/It paints.\nWe/You/They paint." },
+      { "id": 1, "question": "Как формируется 'Утверждение' в 'Прошедшем' времени?", "answer": "I painted.\nHe/She/It painted.\nWe/You/They painted." },
+      { "id": 2, "question": "Как формируется 'Утверждение' в 'Будущем' времени?", "answer": "I will paint.\nHe/She/It will paint.\nWe/You/They will paint." },
+      { "id": 3, "question": "Как формируется 'Отрицание' в 'Настоящем' времени?", "answer": "I don't paint.\nHe/She/It doesn't paint.\nWe/You/They don't paint." },
+      { "id": 4, "question": "Как формируется 'Отрицание' в 'Прошедшем' времени?", "answer": "I didn't paint.\nHe/She/It didn't paint.\nWe/You/They didn't paint." },
+      { "id": 5, "question": "Как формируется 'Отрицание' в 'Будущем' времени?", "answer": "I will not paint.\nHe/She/It will not paint.\nWe/You/They will not paint." },
+      { "id": 6, "question": "Как формируется 'Вопрос' в 'Настоящем' времени?", "answer": "Do I paint?\nDoes He/She/It paint?\nDo We/You/They paint?" },
+      { "id": 7, "question": "Как формируется 'Вопрос' в 'Прошедшем' времени?", "answer": "Did I paint?\nDid He/She/It paint?\nDid We/You/They paint?" },
+      { "id": 8, "question": "Как формируется 'Вопрос' в 'Будущем' времени?", "answer": "Will I paint?\nWill He/She/It paint?\nWill We/You/They paint?" }
     ],
     "exercises": [
       { "id": 0, "question": "Я хожу в школу", "answer": "I go to school" },
