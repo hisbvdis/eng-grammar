@@ -12,6 +12,6 @@ export default function Container(props:ViewProps) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingHorizontal: 20,
+    padding: 20,
   }
 })
