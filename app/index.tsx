@@ -6,10 +6,16 @@ import { FlatList, StyleSheet, Text, View, TouchableHighlight } from "react-nati
 import type { Lessons } from "@/assets/types";
 import { AntDesign } from '@expo/vector-icons';
 // -----------------------------------------------------------------------------
+import lessonsStorage from "../assets/storage.json";
 
 
 export default function LessonsPage() {
   const [ lessons, setLessons ] = useState<Lessons>([]);
+
+  useEffect(() => {(async () => {
+    // if ((await AsyncStorage.getItem("lessons"))) return;
+    AsyncStorage.setItem("lessons", JSON.stringify(lessonsStorage));
+  })()}, [])
 
   useEffect(() => {(async () => {
     const lessonsJson = await AsyncStorage.getItem("lessons");

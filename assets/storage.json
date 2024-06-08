@@ -3,7 +3,8 @@
     "number": "1",
     "title": "Форма глагола (актив)",
     "theory": [
-      { "id": 0, "question": "Формирование: Утверждение в Настоящем времени", "answer": "I paing. He/She/It paints. We/You/They paint." }
+      { "id": 0, "question": "Формирование: Утверждение в Настоящем времени", "answer": "I paint.\nHe/She/It paints.\nWe/You/They paint." },
+      { "id": 1, "question": "Формирование: Утверждение в Настоящем времени", "answer": "I paint. He/She/It paints. We/You/They paint." }
     ],
     "exercises": [
       { "id": 0, "question": "Я хожу в школу", "answer": "I go to school" },

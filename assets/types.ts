@@ -4,10 +4,10 @@ export interface Lesson {
   number: string;
   title: string;
   exercises: Exercise[];
-  theory: string;
+  theory: Exercise[];
 }
 
-interface Exercise {
+export interface Exercise {
   id: number;
   question: string;
   answer: string;
