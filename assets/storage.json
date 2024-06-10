@@ -1,37 +1,75 @@
 [
   {
     "number": "1",
-    "title": "Форма глагола (актив)",
+    "title": "Simple",
     "theory": [
-      { "id": 0, "question": "Как формируется 'Утверждение' в 'Настоящем' времени?", "answer": "I paint.\nHe/She/It paints.\nWe/You/They paint." },
-      { "id": 1, "question": "Как формируется 'Утверждение' в 'Прошедшем' времени?", "answer": "I painted.\nHe/She/It painted.\nWe/You/They painted." },
-      { "id": 2, "question": "Как формируется 'Утверждение' в 'Будущем' времени?", "answer": "I will paint.\nHe/She/It will paint.\nWe/You/They will paint." },
-      { "id": 3, "question": "Как формируется 'Отрицание' в 'Настоящем' времени?", "answer": "I don't paint.\nHe/She/It doesn't paint.\nWe/You/They don't paint." },
-      { "id": 4, "question": "Как формируется 'Отрицание' в 'Прошедшем' времени?", "answer": "I didn't paint.\nHe/She/It didn't paint.\nWe/You/They didn't paint." },
-      { "id": 5, "question": "Как формируется 'Отрицание' в 'Будущем' времени?", "answer": "I will not paint.\nHe/She/It will not paint.\nWe/You/They will not paint." },
-      { "id": 6, "question": "Как формируется 'Вопрос' в 'Настоящем' времени?", "answer": "Do I paint?\nDoes He/She/It paint?\nDo We/You/They paint?" },
-      { "id": 7, "question": "Как формируется 'Вопрос' в 'Прошедшем' времени?", "answer": "Did I paint?\nDid He/She/It paint?\nDid We/You/They paint?" },
-      { "id": 8, "question": "Как формируется 'Вопрос' в 'Будущем' времени?", "answer": "Will I paint?\nWill He/She/It paint?\nWill We/You/They paint?" }
+      { "id": 0, "question": "Формирование Simple (актив)", "answer": "Табличка в теории" },
+      { "id": 1, "question": "Формирование Simple (пассив)", "answer": "Табличка в теории" },
+      { "id": 2, "question": "Формирование Simple (состояние)", "answer": "Табличка в теории" },
+      { "id": 3, "question": "Simple: Случаи употребления", "answer": "Табличка в теории" }
+    ],
+    "exercises": [
+      {"id": 1, "question": "Несмотря на то, что он не любит шумные вечеринки, он всё же иногда посещает их, чтобы поддержать друзей.", "answer": "Despite not liking noisy parties, he still attends them sometimes to support his friends."},
+      {"id": 2, "question": "Она всегда мечтала о путешествиях, но только после выхода на пенсию смогла осуществить свою мечту.", "answer": "She always dreamed of traveling, but only after retiring was she able to fulfill her dream."},
+      {"id": 3, "question": "Хотя он и не является профессиональным спортсменом, он регулярно занимается спортом, чтобы поддерживать хорошую физическую форму.", "answer": "Although he is not a professional athlete, he regularly exercises to maintain good physical shape."},
+      {"id": 4, "question": "Они не ожидали такого поворота событий, но быстро адаптировались к новой ситуации и нашли решение.", "answer": "They did not expect such a turn of events, but quickly adapted to the new situation and found a solution."},
+      {"id": 5, "question": "Я всегда стараюсь быть пунктуальным, но сегодня, к сожалению, опоздал из-за пробок на дорогах.", "answer": "I always try to be punctual, but today, unfortunately, I was late due to traffic jams."},
+      {"id": 6, "question": "Несмотря на свой юный возраст, он уже добился значительных успехов в научной деятельности.", "answer": "Despite his young age, he has already achieved significant success in scientific activities."},
+      {"id": 7, "question": "Они не всегда соглашаются друг с другом, но всегда стараются найти компромисс и решить проблему вместе.", "answer": "They do not always agree with each other, but always try to find a compromise and solve the problem together."},
+      {"id": 8, "question": "Хотя я и не являюсь экспертом в этой области, я постараюсь ответить на ваш вопрос, основываясь на своих знаниях.", "answer": "Although I am not an expert in this field, I will try to answer your question based on my knowledge."},
+      {"id": 9, "question": "Она не любит рисковать, но иногда всё же делает это, чтобы достичь своих целей.", "answer": "She does not like to take risks, but sometimes she does it to achieve her goals."},
+      {"id": 10, "question": "Мы не ожидали, что проект окажется таким сложным, но благодаря нашей совместной работе мы смогли успешно его завершить.", "answer": "We did not expect the project to be so difficult, but thanks to our joint work, we were able to successfully complete it."},
+      {"id": 11, "question": "Он всегда стремится к совершенству, но понимает, что никто не идеален и ошибки неизбежны.", "answer": "He always strives for perfection, but understands that no one is perfect and mistakes are inevitable."},
+      {"id": 12, "question": "Она не любит публичных выступлений, но иногда приходится делать это в рамках своей работы.", "answer": "She does not like public speaking, but sometimes she has to do it as part of her job."},
+      {"id": 13, "question": "Хотя он и не является профессиональным музыкантом, он играет на нескольких инструментах и сочиняет музыку для себя.", "answer": "Although he is not a professional musician, he plays several instruments and composes music for himself."},
+      {"id": 14, "question": "Они не всегда следуют правилам, но всегда стараются действовать в интересах компании.", "answer": "They do not always follow the rules, but always try to act in the best interests of the company."},
+      {"id": 15, "question": "Я не люблю жаловаться, но в данном случае вынужден сделать это, чтобы защитить свои права.", "answer": "I do not like to complain, but in this case I am forced to do so to protect my rights."},
+      {"id": 16, "question": "Несмотря на финансовые трудности, они смогли отправить своего ребенка учиться за границу.", "answer": "Despite financial difficulties, they were able to send their child to study abroad."},
+      {"id": 17, "question": "Она не всегда понимает шутки, но всегда старается поддержать компанию и посмеяться вместе со всеми.", "answer": "She does not always understand jokes, but always tries to support the company and laugh with everyone."},
+      {"id": 18, "question": "Хотя он и не является поклонником классической музыки, он иногда посещает концерты, чтобы расширить свой кругозор.", "answer": "Although he is not a fan of classical music, he sometimes attends concerts to broaden his horizons."},
+      {"id": 19, "question": "Они не всегда видят вещи одинаково, но всегда уважают мнение друг друга и стараются найти общий язык.", "answer": "They do not always see things the same way, but always respect each other's opinions and try to find common ground."},
+      {"id": 20, "question": "Я не люблю спорить, но в данном случае вынужден отстаивать свою точку зрения, так как считаю её правильной.", "answer": "I do not like to argue, but in this case I am forced to defend my point of view, because I consider it correct."},
+      {"id": 21, "question": "Несмотря на то, что он не говорит на этом языке свободно, он может объясниться и понять основную суть разговора.", "answer": "Despite not speaking the language fluently, he can make himself understood and understand the gist of the conversation."},
+      {"id": 22, "question": "Она не всегда успевает сделать всё, что запланировала, но всегда старается выполнить самые важные задачи.", "answer": "She does not always manage to do everything she planned, but always tries to complete the most important tasks."},
+      {"id": 23, "question": "Хотя он и не является профессиональным поваром, он готовит вкусные и полезные блюда для своей семьи.", "answer": "Although he is not a professional cook, he prepares delicious and healthy meals for his family."},
+      {"id": 24, "question": "Они не всегда придерживаются здорового образа жизни, но стараются делать это как можно чаще.", "answer": "They do not always adhere to a healthy lifestyle, but try to do it as often as possible."},
+      {"id": 25, "question": "Я не люблю тратить деньги попусту, но иногда позволяю себе небольшие покупки, чтобы порадовать себя.", "answer": "I don't like to waste money, but sometimes I allow myself small purchases to please myself."},
+      {"id": 26, "question": "Несмотря на то, что он не любит большие компании, он всегда рад встретиться со своими близкими друзьями.", "answer": "Despite not liking large groups, he is always happy to meet with his close friends."},
+      {"id": 27, "question": "Она не всегда соглашается с мнением большинства, но всегда готова выслушать и уважать другие точки зрения.", "answer": "She does not always agree with the majority opinion, but is always ready to listen and respect other points of view."},
+      {"id": 28, "question": "Хотя он и не является профессиональным художником, его картины всегда вызывают интерес и восхищение у окружающих.", "answer": "Although he is not a professional artist, his paintings always arouse interest and admiration from others."},
+      {"id": 29, "question": "Они не всегда следуют модным тенденциям, но всегда выглядят стильно и элегантно.", "answer": "They do not always follow fashion trends, but always look stylish and elegant."},
+      {"id": 30, "question": "Я не всегда понимаю современное искусство, но всегда стараюсь найти в нём что-то интересное и необычное.", "answer": "I do not always understand modern art, but I always try to find something interesting and unusual in it."},
+      {"id": 31, "question": "Несмотря на свой загруженный график, он всегда находит время для своих увлечений и хобби.", "answer": "Despite his busy schedule, he always finds time for his hobbies and interests."},
+      {"id": 32, "question": "Она не всегда говорит то, что думает, но всегда старается быть честной и искренней с близкими людьми.", "answer": "She does not always say what she thinks, but always tries to be honest and sincere with loved ones."},
+      {"id": 33, "question": "Хотя он и не является экспертом в области психологии, он всегда готов выслушать и поддержать друга в трудной ситуации.", "answer": "Although he is not an expert in psychology, he is always ready to listen and support a friend in a difficult situation."},
+      {"id": 34, "question": "Они не всегда путешествуют по популярным туристическим маршрутам, но всегда открывают для себя что-то новое и интересное.", "answer": "They do not always travel on popular tourist routes, but always discover something new and interesting."},
+      {"id": 35, "question": "Я не всегда понимаю шутки на иностранном языке, но всегда стараюсь уловить общий смысл и посмеяться вместе со всеми.", "answer": "I do not always understand jokes in a foreign language, but I always try to grasp the general meaning and laugh along with everyone."},
+      {"id": 36, "question": "Несмотря на то, что он не является профессиональным спортсменом, он регулярно участвует в любительских соревнованиях и занимает призовые места.", "answer": "Despite not being a professional athlete, he regularly participates in amateur competitions and wins prizes."},
+      {"id": 37, "question": "Она не всегда успевает приготовить ужин, но всегда старается накормить свою семью вкусной и полезной едой.", "answer": "She does not always have time to cook dinner, but always tries to feed her family tasty and healthy food."},
+      {"id": 38, "question": "Хотя он и не является профессиональным музыкантом, он играет на гитаре и поёт для своих друзей и близких.", "answer": "Although he is not a professional musician, he plays the guitar and sings for his friends and family."},
+      {"id": 39, "question": "Они не всегда следуют советам других, но всегда стараются принимать решения самостоятельно и нести за них ответственность.", "answer": "They do not always follow the advice of others, but always try to make decisions on their own and take responsibility for them."},
+      {"id": 40, "question": "Я не всегда понимаю новые технологии, но всегда стараюсь разобраться в них и использовать их в своей жизни.", "answer": "I do not always understand new technologies, but I always try to understand them and use them in my life."},
+      {"id": 41, "question": "Несмотря на свой плотный график, она всегда находит время для чтения книг и саморазвития.", "answer": "Despite her busy schedule, she always finds time for reading books and self-development."},
+      {"id": 42, "question": "Он не всегда выражает свои эмоции открыто, но всегда заботится о своих близких и готов помочь им в любой ситуации.", "answer": "He does not always express his emotions openly, but always cares for his loved ones and is ready to help them in any situation."},
+      {"id": 43, "question": "Хотя он и не является профессиональным фотографом, его снимки всегда получаются красивыми и запоминающимися.", "answer": "Although he is not a professional photographer, his pictures always turn out beautiful and memorable."},
+      {"id": 44, "question": "Они не всегда соглашаются с мнением начальства, но всегда выполняют свою работу качественно и в срок.", "answer": "They do not always agree with the opinion of the authorities, but always perform their work efficiently and on time."},
+      {"id": 45, "question": "Я не всегда понимаю шутки своих друзей, но всегда стараюсь посмеяться вместе с ними и поддержать хорошее настроение.", "answer": "I do not always understand my friends' jokes, but I always try to laugh with them and maintain a good mood."},
+      {"id": 46, "question": "Он не любит шумных компаний, но иногда ходит на вечеринки, чтобы пообщаться с друзьями и расслабиться.", "answer": "He does not like noisy companies, but sometimes goes to parties to chat with friends and relax."},
+      {"id": 47, "question": "Она не всегда следует моде, но всегда одевается со вкусом и выглядит элегантно.", "answer": "She does not always follow fashion, but always dresses with taste and looks elegant."},
+      {"id": 48, "question": "Хотя он и не является профессиональным спортсменом, он регулярно занимается спортом и следит за своим здоровьем.", "answer": "Although he is not a professional athlete, he regularly plays sports and monitors his health."},
+      {"id": 49, "question": "Они не всегда понимают друг друга с полуслова, но всегда стараются найти общий язык и решить проблемы вместе.", "answer": "They do not always understand each other perfectly, but always try to find common ground and solve problems together."},
+      {"id": 50, "question": "Я не всегда успеваю сделать все дела, которые запланировал, но всегда стараюсь выполнить самые важные и неотложные задачи.", "answer": "I do not always have time to do all the things that I planned, but I always try to complete the most important and urgent tasks."},
+    ]
+  },
+  {
+    "number": "1.2",
+    "title": "Simple (пассив)",
+    "theory": [
+      { "id": 0, "question": "Формирование Simple (пассив)", "answer": "Табличка в теории" }
     ],
     "exercises": [
       { "id": 0, "question": "Я хожу в школу", "answer": "I go to school" },
       { "id": 1, "question": "Я не праздную Новый год", "answer": "I don't celebrate New Year" }
     ]
   },
-  {
-    "number": "2.1",
-    "title": "Местоимения",
-    "exercises": [
-      { "id": 0, "question": "Я хожу в школу", "answer": "I go to school" },
-      { "id": 1, "question": "Я не праздную Новый год", "answer": "I don't celebrate New Year" }
-    ]
-  },
-  {
-    "number": "2.2",
-    "title": "Вопросительные слова",
-    "exercises": [
-      { "id": 0, "question": "Я хожу в школу", "answer": "I go to school" },
-      { "id": 1, "question": "Я не праздную Новый год", "answer": "I don't celebrate New Year" }
-    ]
-  }
 ]
