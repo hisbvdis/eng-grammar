@@ -1,6 +1,7 @@
 [
   {
     "number": "1",
+    "isChecked": false,
     "title": "Simple",
     "theory": [
       { "id": 0, "question": "Формирование Simple (актив)", "answer": "Табличка в теории" },
@@ -12,11 +13,33 @@
   },
   {
     "number": "2",
+    "isChecked": false,
     "title": "Continuous",
     "theory": [
       { "id": 0, "question": "Формирование Continuous (актив)", "answer": "Табличка в теории" },
       { "id": 1, "question": "Формирование Continuous (пассив)", "answer": "Табличка в теории" },
       { "id": 3, "question": "Continuous: Случаи употребления", "answer": "Табличка в теории" }
+    ],
+    "exercises": []
+  },
+  {
+    "number": "3",
+    "isChecked": false,
+    "title": "Perfect Simple",
+    "theory": [
+      { "id": 0, "question": "Формирование Perfect Simple (актив)", "answer": "Табличка в теории" },
+      { "id": 1, "question": "Формирование Perfect Simple (пассив)", "answer": "Табличка в теории" },
+      { "id": 3, "question": "Perfect Simple: Случаи употребления", "answer": "Табличка в теории" }
+    ],
+    "exercises": []
+  },
+  {
+    "number": "4",
+    "isChecked": false,
+    "title": "Perfect Continuous",
+    "theory": [
+      { "id": 0, "question": "Формирование Perfect Continuous", "answer": "Табличка в теории" },
+      { "id": 3, "question": "Perfect Continuous: Случаи употребления", "answer": "Табличка в теории" }
     ],
     "exercises": []
   },
