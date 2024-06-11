@@ -1,0 +1,147 @@
+import WebView from "react-native-webview";
+import { useEffect, useState } from "react";
+import { Link, Stack, useSegments } from "expo-router";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+// -----------------------------------------------------------------------------
+import Container from "@/components/Container";
+// -----------------------------------------------------------------------------
+import { Lesson, Lessons } from "@/assets/types";
+import Btn from "@/components/Btn";
+
+
+export default function Lesson1() {
+  const segments = useSegments();
+  const [ lesson, setLesson ] = useState<Lesson>();
+
+  useEffect(() => {(async () => {
+    const allLessonsJson = await AsyncStorage.getItem("lessons");
+    if (!allLessonsJson) return;
+    const allLessonsArray = JSON.parse(allLessonsJson) as Lessons;
+    const currentLessonObject = allLessonsArray.find((lesson) => lesson.number === segments.at(-1));
+    setLesson(currentLessonObject);
+  })()}, [])
+
+  return (
+    <Container>
+      <Stack.Screen options={{title: `${lesson?.number}. ${lesson?.title}`}}/>
+      <WebView source={{html: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    h2 {
+      margin-block: 1em 0;
+    }
+    table {
+      border-collapse: collapse;
+      /* table-layout: fixed; */
+      /* inline-size: 600px; */
+    }
+    td {
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+    .notesTable {
+      background-color: #fafafa;
+    }
+    p {
+      margin-block: 0;
+    }
+
+    h2 {
+      margin-block: 1em 0;
+    }
+    .subHeading {
+      font-weight: bold;
+      color: #900;
+    }
+    .comment {
+      color: #969896;
+    }
+    ul {
+      margin: 0;
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <h2>A/An — неопределённый артикль</h2>
+  <p><b>Употребляется</b> — перед существительным, обозначающим "один любой объект" или "представитель класса объектов"</p>
+  <ul>
+    <li>Существительное должно быть: (исчисляемым) (в ед. числе)</li>
+  </ul>
+  <table class="notesTable">
+    <tbody>
+      <tr>
+        <td class="subHeading" colspan="2"># Пример</td>
+      </tr>
+      <tr>
+        <td>I paint a picture</td>
+        <td class="comment">// Я рисую картину (представитель класса объектов "картина")</td>
+      </tr>
+      <tr>
+        <td>I am a painter</td>
+        <td class="comment">// Я — художник (представитель класса объектов "художник")</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h2>The — определённый артикль</h2>
+  <p><b>Употребляется</b> — перед существительным, обозначающим "тот самый предмет, понятный собеседнику"</p>
+  <ul>
+    <li>Существительное должно быть: (исч. и неисч.) (в един. и множ. числе)</li>
+  </ul>
+  <table class="notesTable">
+    <tbody>
+      <tr>
+        <td class="subHeading" colspan="2"># Превосходная степень</td>
+      </tr>
+      <tr>
+        <td>I paint the biggest picture</td>
+      </tr>
+      <tr>
+        <td class="subHeading" colspan="2"># Порядковый номер</td>
+      </tr>
+      <tr>
+        <td>I paint the first picture</td>
+      </tr>
+      <tr>
+        <td class="subHeading" colspan="2"># Уточняющее прилагательное (first/last) (previous/next/following) (same) (right) (only-единственный) (very-тот самый)</td>
+      </tr>
+      <tr>
+        <td>The last picture I painted</td>
+      </tr>
+      <tr>
+        <td class="subHeading" colspan="2"># Уникальный объект</td>
+      </tr>
+      <tr>
+        <td>I paint the sun</td>
+      </tr>
+      <tr>
+        <td class="subHeading" colspan="2"># Весь класс объектов (группы, семьи, народности)</td>
+      </tr>
+      <tr>
+        <td>The painter is a creative person</td>
+      </tr>
+      <tr>
+        <td>I am watching TV series "The Somranos"</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>`}} style={{backgroundColor: "transparent"}}/>
+      <Link href={`/quiz?lessonNumber=${lesson?.number}&type=theory`} asChild>
+        <Btn>Вопросы по теории</Btn>
+      </Link>
+      <Link href={`/quiz?lessonNumber=${lesson?.number}&type=exercises`} asChild style={{marginTop: 20}}>
+        <Btn>Упражнения</Btn>
+      </Link>
+    </Container>
+  )
+}

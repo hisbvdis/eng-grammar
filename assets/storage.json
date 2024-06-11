@@ -9,7 +9,32 @@
       { "id": 2, "question": "Формирование Simple (состояние)", "answer": "Табличка в теории" },
       { "id": 3, "question": "Simple: Случаи употребления", "answer": "Табличка в теории" }
     ],
-    "exercises": []
+    "exercises": [
+      { "id": 0, "type": "Актив — Утверждение", "question": "Я использую этот инструмент", "answer": "I use this tool" },
+      { "id": 1, "type": "Актив — Отрицание", "question": "Он не использует тот инструмент", "answer": "He doesn't use that tool" },
+      { "id": 2, "type": "Актив — Вопрос Общий", "question": "Мы используем эти инструменты?", "answer": "Do we use these tools?" },
+      { "id": 3, "type": "Актив — Вопрос Специальный", "question": "Как именно она использует те инструменты?", "answer": "How exactly does she use those tools?" },
+      { "id": 4, "type": "Актив — Вопрос К подлежащему", "question": "Кто использует этот инструмент?", "answer": "Who uses this tool?" },
+      { "id": 5, "type": "Актив — Вопрос Альтернативный", "question": "Ты используешь этот инструмент или тот?", "answer": "Do you use this tool or that one?" },
+      { "id": 6, "type": "Актив — Вопрос Разделительный / Присоединённый", "question": "Оно использует этот инструмент, не так ли?", "answer": "It uses this tool, doesn't it?" },
+      { "id": 7, "type": "Актив — Вопрос Сложный", "question": "Ты знаешь, как они используют эти инструменты?", "answer": "Do you know, how they use these tools?" },
+      { "id": 9, "type": "Пассив — Утверждение", "question": "Этот инструмент используется многими компаниями", "answer": "This tool is used by many companies" },
+      { "id": 10, "type": "Пассив — Отрицание", "question": "Тот инструмент не используется в наше время", "answer": "That tool isn't used nowadays" },
+      { "id": 11, "type": "Пассив — Вопрос Общий", "question": "Эти инструменты используются?", "answer": "Are these tools used" },
+      { "id": 12, "type": "Пассив — Вопрос Специальный", "question": "Как именно те инструменты используются?", "answer": "How exactly are those tools used?" },
+      { "id": 13, "type": "Пассив — Вопрос К подлежащему", "question": "Что используется в наше время?", "answer": "What is used nowadays?" },
+      { "id": 14, "type": "Пассив — Вопрос Альтернативный", "question": "Этот инструмент используется или тот?", "answer": "Is this tool used or that one?" },
+      { "id": 15, "type": "Пассив — Вопрос Разделительный / Присоединённый", "question": "Этот инструмент используется, не так ли?", "answer": "This tool is used, isn't it?" },
+      { "id": 16, "type": "Пассив — Вопрос Сложный", "question": "Ты знаешь, как используются те инструменты?", "answer": "Do you know, how those tools are used?" },
+      { "id": 18, "type": "Состояние — Утверждение", "question": "Я являюсь пользователем этого инструмента", "answer": "I'm a user of this tool" },
+      { "id": 19, "type": "Состояние — Отрицание", "question": "Он не является пользователем того инструмента", "answer": "He's not a user of that tool" },
+      { "id": 20, "type": "Состояние — Вопрос Общий", "question": "Они являются пользователями этих инструментов?", "answer": "Are they users of these tools?" },
+      { "id": 21, "type": "Состояние — Вопрос Специальный", "question": "Кто имеено является пользователем тех инструментов?", "answer": "Who exactly is a user of those tools?" },
+      { "id": 22, "type": "Состояние — Вопрос К подлежащему", "question": "Кто является пользователем этого инструмента?", "answer": "Who is a user of this tool" },
+      { "id": 23, "type": "Состояние — Вопрос Альтернативный", "question": "Вы являетесь пользователями этого инструмента, или они?", "answer": "Are you users of this tool, or are they" },
+      { "id": 24, "type": "Состояние — Вопрос Разделительный / Присоединённый", "question": "Оно является пользователем этого инструмента, не так ли?", "answer": "It's a user of this tool, isn't it?" },
+      { "id": 25, "type": "Состояние — Вопрос Сложный", "question": "Ты знаешь, кто является пользователем этого инструмента?", "answer": "Do you know, who is a user of this tool?" },
+    ]
   },
   {
     "number": "2",
@@ -20,7 +45,40 @@
       { "id": 1, "question": "Формирование Continuous (пассив)", "answer": "Табличка в теории" },
       { "id": 3, "question": "Continuous: Случаи употребления", "answer": "Табличка в теории" }
     ],
-    "exercises": []
+    "exercises": [
+      { "id": 0, "type": "Актив — Утверждение", "question": "Я использую этот инструмент", "answer": "I'm using this tool" },
+      { "id": 1, "type": "Актив — Отрицание", "question": "Он не использует тот инструмент", "answer": "He isn't using that tool" },
+      { "id": 2, "type": "Актив — Вопрос Общий", "question": "Мы используем эти инструменты?", "answer": "Are we using these tools?" },
+      { "id": 3, "type": "Актив — Вопрос Специальный", "question": "Как именно она использует те инструменты?", "answer": "Who exactly is she using those tools?" },
+      { "id": 4, "type": "Актив — Вопрос К подлежащему", "question": "Кто использует этот инструмент?", "answer": "Who is using this tool?" },
+      { "id": 5, "type": "Актив — Вопрос Альтернативный", "question": "Ты используешь этот инструмент или тот?", "answer": "Are you using this tool or that one?" },
+      { "id": 6, "type": "Актив — Вопрос Разделительный / Присоединённый", "question": "Оно использует этот инструмент, не так ли?", "answer": "It is using this tool, isn't it?" },
+      { "id": 7, "type": "Актив — Вопрос Сложный", "question": "Ты знаешь, как они используют эти инструменты?", "answer": "Do you know, how they are using these tools?" },
+      { "id": 9, "type": "Пассив — Утверждение", "question": "Этот инструмент используется многими компаниями", "answer": "This tool is being used by many companies" },
+      { "id": 10, "type": "Пассив — Отрицание", "question": "Тот инструмент не используется прямо сейчас", "answer": "That tool isn't being used right now" },
+      { "id": 11, "type": "Пассив — Вопрос Общий", "question": "Эти инструменты используются?", "answer": "Are these tools being used" },
+      { "id": 12, "type": "Пассив — Вопрос Специальный", "question": "Как именно те инструменты используются?", "answer": "How exactly are those tools being used?" },
+      { "id": 13, "type": "Пассив — Вопрос К подлежащему", "question": "Что используется прямо сейчас?", "answer": "What is being used right now?" },
+      { "id": 14, "type": "Пассив — Вопрос Альтернативный", "question": "Этот инструмент используется или тот?", "answer": "Is this tool being used or that one?" },
+      { "id": 15, "type": "Пассив — Вопрос Разделительный / Присоединённый", "question": "Этот инструмент используется, не так ли?", "answer": "This tool is being used, isn't it?" },
+      { "id": 16, "type": "Пассив — Вопрос Сложный", "question": "Ты знаешь, как используются те инструменты?", "answer": "Do you know, how those tools are being used?" },
+      { "id": 17, "type": "Актив — Утверждение", "question": "Я использую этот инструмент", "answer": "I'm using this tool" },
+      { "id": 18, "type": "Актив — Отрицание", "question": "Он не использует тот инструмент", "answer": "He isn't using that tool" },
+      { "id": 19, "type": "Актив — Вопрос Общий", "question": "Мы используем эти инструменты?", "answer": "Are we using these tools?" },
+      { "id": 20, "type": "Актив — Вопрос Специальный", "question": "Как именно она использует те инструменты?", "answer": "Who exactly is she using those tools?" },
+      { "id": 21, "type": "Актив — Вопрос К подлежащему", "question": "Кто использует этот инструмент?", "answer": "Who is using this tool?" },
+      { "id": 22, "type": "Актив — Вопрос Альтернативный", "question": "Ты используешь этот инструмент или тот?", "answer": "Are you using this tool or that one?" },
+      { "id": 23, "type": "Актив — Вопрос Разделительный / Присоединённый", "question": "Оно использует этот инструмент, не так ли?", "answer": "It is using this tool, isn't it?" },
+      { "id": 24, "type": "Актив — Вопрос Сложный", "question": "Ты знаешь, как они используют эти инструменты?", "answer": "Do you know, how they are using these tools?" },
+      { "id": 25, "type": "Пассив — Утверждение", "question": "Этот инструмент используется многими компаниями", "answer": "This tool is being used by many companies" },
+      { "id": 26, "type": "Пассив — Отрицание", "question": "Тот инструмент не используется прямо сейчас", "answer": "That tool isn't being used right now" },
+      { "id": 27, "type": "Пассив — Вопрос Общий", "question": "Эти инструменты используются?", "answer": "Are these tools being used" },
+      { "id": 28, "type": "Пассив — Вопрос Специальный", "question": "Как именно те инструменты используются?", "answer": "How exactly are those tools being used?" },
+      { "id": 29, "type": "Пассив — Вопрос К подлежащему", "question": "Что используется прямо сейчас?", "answer": "What is being used right now?" },
+      { "id": 30, "type": "Пассив — Вопрос Альтернативный", "question": "Этот инструмент используется или тот?", "answer": "Is this tool being used or that one?" },
+      { "id": 31, "type": "Пассив — Вопрос Разделительный / Присоединённый", "question": "Этот инструмент используется, не так ли?", "answer": "This tool is being used, isn't it?" },
+      { "id": 32, "type": "Пассив — Вопрос Сложный", "question": "Ты знаешь, как используются те инструменты?", "answer": "Do you know, how those tools are being used?" },
+    ]
   },
   {
     "number": "3",
@@ -31,7 +89,48 @@
       { "id": 1, "question": "Формирование Perfect Simple (пассив)", "answer": "Табличка в теории" },
       { "id": 3, "question": "Perfect Simple: Случаи употребления", "answer": "Табличка в теории" }
     ],
-    "exercises": []
+    "exercises": [
+      { "id": 0, "type": "Актив — Утверждение", "question": "Я использовал этот инструмент напротяжении года", "answer": "I have used this tool for a year" },
+      { "id": 1, "type": "Актив — Отрицание", "question": "Он не использовал тот инструмент напротяжении года", "answer": "He hasn't used that tool, for a year" },
+      { "id": 2, "type": "Актив — Вопрос Общий", "question": "Мы использовали эти инструменты напротяжении года?", "answer": "Have we used these tools for a year?" },
+      { "id": 3, "type": "Актив — Вопрос Специальный", "question": "Как именно она использовала те инструменты напротяжении года?", "answer": "How exactly has she used those tools for a year?" },
+      { "id": 4, "type": "Актив — Вопрос К подлежащему", "question": "Кто использовал этот инструмент напротяжении года?", "answer": "Who has used this tool for a year?" },
+      { "id": 5, "type": "Актив — Вопрос Альтернативный", "question": "Ты использовал напотяжении года этот инструмент или тот?", "answer": "Have you used this tool or that one for a year?" },
+      { "id": 6, "type": "Актив — Вопрос Разделительный / Присоединённый", "question": "Оно использует этот инструмент напротяжении года, не так ли?", "answer": "It has used this tool for a year, hasn't it?" },
+      { "id": 7, "type": "Актив — Вопрос Сложный", "question": "Ты знаешь, как они использовали эти инструменты напротяжении года?", "answer": "Do you know, how they have used these tools for a year?" },
+      { "id": 9, "type": "Пассив — Утверждение", "question": "Этот инструмент используется многими компаниями напротяжении года", "answer": "This tool has been used by many companies for a year" },
+      { "id": 10, "type": "Пассив — Отрицание", "question": "Тот инструмент не использовался напротяжении года", "answer": "That tool has not been used for a year" },
+      { "id": 11, "type": "Пассив — Вопрос Общий", "question": "Эти инструменты используются напротяжении года?", "answer": "Have these tools been used for a year" },
+      { "id": 12, "type": "Пассив — Вопрос Специальный", "question": "Как именно те инструменты использовались напротяжении года?", "answer": "How exactly have those tools been used for a year?" },
+      { "id": 13, "type": "Пассив — Вопрос К подлежащему", "question": "Что использовалось напротяжении года?", "answer": "What has been used for a year?" },
+      { "id": 14, "type": "Пассив — Вопрос Альтернативный", "question": "Этот инструмент используется напротяжении года или тот?", "answer": "Has this tool been used for a year or that one?" },
+      { "id": 15, "type": "Пассив — Вопрос Разделительный / Присоединённый", "question": "Этот инструмент использовался напротяжении года, не так ли?", "answer": "This tool has been used for a year, hasn't it?" },
+      { "id": 16, "type": "Пассив — Вопрос Сложный", "question": "Ты знаешь, как использовались те инструменты напротяжении года?", "answer": "Do you know, how those tools have been used for a year?" },
+      { "id": 18, "type": "Состояние — Утверждение", "question": "Я являлся пользователем этого инструмента напротяжении года", "answer": "I have been a user of this tool for a year" },
+      { "id": 19, "type": "Состояние — Отрицание", "question": "Он не являлся пользователем того инструмента напротяжении года", "answer": "He has not been a user of that tool for a year" },
+      { "id": 20, "type": "Состояние — Вопрос Общий", "question": "Они являлись пользователями этих инструментов напротяжении года?", "answer": "Have they been users of these tools for a year?" },
+      { "id": 21, "type": "Состояние — Вопрос Специальный", "question": "Кто имеено являлся пользователем тех инструментов напротяжении года?", "answer": "Who exactly has been a user of those tools for a year?" },
+      { "id": 22, "type": "Состояние — Вопрос К подлежащему", "question": "Кто являлся пользователем этого инструмента напротяжении года?", "answer": "Who has been a user of this tool for a year" },
+      { "id": 23, "type": "Состояние — Вопрос Альтернативный", "question": "Вы являлись пользователями этого инструмента напротяжении года, или они?", "answer": "Have you been users of this tool, or have they" },
+      { "id": 24, "type": "Состояние — Вопрос Разделительный / Присоединённый", "question": "Оно являлось пользователем этого инструмента напротяжении года, не так ли?", "answer": "It has been a user of this tool for a year, hasn't it?" },
+      { "id": 25, "type": "Состояние — Вопрос Сложный", "question": "Ты знаешь, кто являлся пользователем этого инструмента напротяжении года?", "answer": "Do you know, who has been a user of this tool for a year?" },
+      { "id": 26, "type": "Актив — Утверждение", "question": "Я использовал 2 инструмента. Ещё один остался", "answer": "I have used two tools. One more left" },
+      { "id": 27, "type": "Актив — Отрицание", "question": "Он не использовал этот инструмент прежде", "answer": "He hasn't used this tool before" },
+      { "id": 28, "type": "Актив — Вопрос Общий", "question": "Это первый инструмент, который мы использовали?", "answer": "Is it the first tool we have used" },
+      { "id": 29, "type": "Актив — Вопрос Специальный", "question": "Как она использовала свой первый инструмент?", "answer": "How has she used her first tool?" },
+      { "id": 30, "type": "Актив — Вопрос К подлежащему", "question": "Кто использовал этот инструмент недавно?", "answer": "Who has used this tool recently?" },
+      { "id": 31, "type": "Актив — Вопрос Альтернативный", "question": "Ты только что использовал этот инструмент или тот?", "answer": "You have just used this tool or that one?" },
+      { "id": 32, "type": "Актив — Вопрос Разделительный / Присоединённый", "question": "Оно использовало этот инструмент прежде, не так ли?", "answer": "It has used this tool before, hasn't it?" },
+      { "id": 33, "type": "Актив — Вопрос Сложный", "question": "Ты знаешь, как они использовали свой первый инструмент?", "answer": "Do you know, how they have used their first tool" },
+      { "id": 34, "type": "Пассив — Утверждение", "question": "Два инструмента были использованы. Ещё один остался.", "answer": "Two tools has been used. One more left" },
+      { "id": 35, "type": "Пассив — Отрицание", "question": "Тот инструмент не использовался прежде", "answer": "That tool has not been used before" },
+      { "id": 36, "type": "Пассив — Вопрос Общий", "question": "Это первый инструмент, который был использован?", "answer": "Is it the first tool, that has been used?" },
+      { "id": 37, "type": "Пассив — Вопрос Специальный", "question": "Как был использован её первый инструмент?", "answer": "How has been used her first tool?" },
+      { "id": 38, "type": "Пассив — Вопрос К подлежащему", "question": "Что использовалось в последнее время?", "answer": "What has been used recently?" },
+      { "id": 39, "type": "Пассив — Вопрос Альтернативный", "question": "Только что использовался этот инструмент или тот?", "answer": "Has this tool been just used or that one?" },
+      { "id": 40, "type": "Пассив — Вопрос Разделительный / Присоединённый", "question": "Этот инструмент использовался прежде, не так ли?", "answer": "This tool has been used before, hasn't it?" },
+      { "id": 41, "type": "Пассив — Вопрос Сложный", "question": "Ты знаешь, как использовались те инструменты?", "answer": "Do you know, how those tools have been used?" },
+    ]
   },
   {
     "number": "4",
@@ -41,7 +140,24 @@
       { "id": 0, "question": "Формирование Perfect Continuous", "answer": "Табличка в теории" },
       { "id": 3, "question": "Perfect Continuous: Случаи употребления", "answer": "Табличка в теории" }
     ],
-    "exercises": []
+    "exercises": [
+      { "id": 0, "type": "Актив — Утверждение", "question": "Я использую этот инструмент весь день", "answer": "I habe been using this tool for all day" },
+      { "id": 1, "type": "Актив — Отрицание", "question": "Он не использует тот инструмент весь день", "answer": "He hasn't been using that tool for all day" },
+      { "id": 2, "type": "Актив — Вопрос Общий", "question": "Мы использовали эти инструменты сегодня?", "answer": "Have we been using these tools today?" },
+      { "id": 3, "type": "Актив — Вопрос Специальный", "question": "Как долго она использует те инструменты?", "answer": "Who long has she been using those tools?" },
+      { "id": 4, "type": "Актив — Вопрос К подлежащему", "question": "Кто использовал этот инструмент больше двух часов?", "answer": "Who has been using this tool more than two hours?" },
+      { "id": 5, "type": "Актив — Вопрос Альтернативный", "question": "Ты сегодня использовал этот инструмент или тот?", "answer": "Have you been using this tool or that one today?" },
+      { "id": 6, "type": "Актив — Вопрос Разделительный / Присоединённый", "question": "Оно использовало этот инструмент весь день, не так ли?", "answer": "It has been using this tool for all day, hasn't it?" },
+      { "id": 7, "type": "Актив — Вопрос Сложный", "question": "Ты знаешь, как долго они используют эти инструменты?", "answer": "Do you know, how long they have been using these tools?" },
+      { "id": 9, "type": "Пассив — Утверждение", "question": "Этот инструмент использовался весь день", "answer": "This tool has been used for all day" },
+      { "id": 10, "type": "Пассив — Отрицание", "question": "Тот инструмент не использовался долго сегодня", "answer": "That tool hasn't been used for a long time today" },
+      { "id": 11, "type": "Пассив — Вопрос Общий", "question": "Эти инструменты использовались сегодня?", "answer": "Have these tools been used today" },
+      { "id": 12, "type": "Пассив — Вопрос Специальный", "question": "Как долго те инструменты использовались сегодня?", "answer": "How long have those tools been used today?" },
+      { "id": 13, "type": "Пассив — Вопрос К подлежащему", "question": "Что использовалось последние 2 часа?", "answer": "What has been used for last 2 hours?" },
+      { "id": 14, "type": "Пассив — Вопрос Альтернативный", "question": "Этот инструмент использовался или тот?", "answer": "Has this tool been used or that one?" },
+      { "id": 15, "type": "Пассив — Вопрос Разделительный / Присоединённый", "question": "Этот инструмент использовался, не так ли?", "answer": "This tool has been used, hasn't it?" },
+      { "id": 16, "type": "Пассив — Вопрос Сложный", "question": "Ты знаешь, как использовались те инструменты?", "answer": "Do you know, how those tools has been used?" }
+    ]
   },
   {
     "number": "5",
@@ -55,7 +171,9 @@
       { "id": 4, "question": "2 форма Ving: paint, kill, use", "answer": "Табличка в теории" },
       { "id": 5, "question": "3 форма Ving: paint, kill, use", "answer": "Табличка в теории" }
     ],
-    "exercises": []
+    "exercises": [
+
+    ]
   },
   {
     "number": "6",
@@ -66,6 +184,89 @@
       { "id": 1, "question": "2 форма местоимения", "answer": "Табличка в теории" },
       { "id": 2, "question": "3 форма местоимения", "answer": "Табличка в теории" }
     ],
-    "exercises": []
+    "exercises": [
+      { "id": 0, "question": "Я", "answer": "I" },
+      { "id": 1, "question": "Он", "answer": "He" },
+      { "id": 2, "question": "Она", "answer": "She" },
+      { "id": 3, "question": "Оно", "answer": "It" },
+      { "id": 4, "question": "Мы", "answer": "We" },
+      { "id": 5, "question": "Вы", "answer": "You" },
+      { "id": 6, "question": "Они", "answer": "They" },
+      { "id": 7, "question": "Мне / Меня", "answer": "Me" },
+      { "id": 8, "question": "Ему / Его", "answer": "Him" },
+      { "id": 9, "question": "Ей / Её", "answer": "Her" },
+      { "id": 10, "question": "Это", "answer": "It" },
+      { "id": 11, "question": "Нам / Нас", "answer": "Us" },
+      { "id": 12, "question": "Вам / Вас", "answer": "You" },
+      { "id": 13, "question": "Им / Их", "answer": "Them" },
+      { "id": 14, "question": "Мой", "answer": "My" },
+      { "id": 15, "question": "Его", "answer": "His" },
+      { "id": 16, "question": "Её", "answer": "Her" },
+      { "id": 17, "question": "Этого", "answer": "Its" },
+      { "id": 18, "question": "Наш", "answer": "Our" },
+      { "id": 19, "question": "Ваш", "answer": "Your" },
+      { "id": 20, "question": "Их", "answer": "Their" },
+    ]
+  },
+  {
+    "number": "7",
+    "isChecked": false,
+    "title": "Артикли a/the",
+    "theory": [
+      { "id": 0, "question": "Когда употребляется артикль 'a'", "answer": "Табличка в теории" },
+      { "id": 1, "question": "Когда употребляется артикль 'the'", "answer": "Табличка в теории" },
+    ],
+    "exercises": [
+      { "id": 0, "question": "Я — художник", "answer": "I am a painter" },
+      { "id": 1, "question": "Я рисую картину", "answer": "I paint a picture" },
+      { "id": 2, "question": "Дай мне, пожалуйста, ручку", "answer": "Give me, please, a pen" },
+    ]
+  },
+  {
+    "number": "8",
+    "isChecked": false,
+    "title": "Количественные слова",
+    "theory": [
+      { "id": 0, "question": "Слова для 'Много'", "answer": "Табличка в теории" },
+      { "id": 1, "question": "Слова для 'Некоторое количество'", "answer": "Табличка в теории" },
+      { "id": 2, "question": "Слова для 'Несколько'", "answer": "Табличка в теории" },
+      { "id": 3, "question": "Слова для 'Немного (чуть-чуть)'", "answer": "Табличка в теории" },
+      { "id": 4, "question": "Слова для 'Мало (недостаточно)'", "answer": "Табличка в теории" },
+    ],
+    "exercises": [
+      { "id": 0, "question": "У меня много яблок", "answer": "I have a lot of apples" },
+      { "id": 1, "question": "У меня много денег", "answer": "I have a lot of money" },
+      { "id": 2, "question": "У меня слишком много яблок", "answer": "I have too many apples" },
+      { "id": 3, "question": "У меня нет много яблок", "answer": "I don't have many apples" },
+      { "id": 4, "question": "Сколько у тебя яблок", "answer": "How many apples do you have?" },
+      { "id": 5, "question": "У меня слишком много денег", "answer": "I have too much money" },
+      { "id": 6, "question": "У меня нет много денег", "answer": "I don't have much money" },
+      { "id": 7, "question": "Сколько у тебя денег", "answer": "How much money do you have?" },
+      { "id": 8, "question": "Ей нужны деньги", "answer": "She needs some money" },
+      { "id": 9, "question": "Хотите кофе?", "answer": "Would you like some coffee?" },
+      { "id": 10, "question": "У меня нет никаких данных?", "answer": "I don't have any data?" },
+      { "id": 11, "question": "У тебя есть какие-то данные?", "answer": "Do you have any data?" },
+      { "id": 12, "question": "У меня есть несколько яблок", "answer": "I have several apples" },
+      { "id": 13, "question": "У тебя есть несколько яблок?", "answer": "Do you have several apples?" },
+      { "id": 14, "question": "У меня есть немного яблок, я могу поделиться?", "answer": "I have a few apples, so I can share" },
+      { "id": 15, "question": "У меня было немного денег, поэтому я купил яблоки", "answer": "I had a little money, so I bought apples " },
+      { "id": 16, "question": "У меня было мало конфет, поэтому я не поделился", "answer": "I had few apples, so I didn't share" },
+      { "id": 17, "question": "У меня было мало денег, поэтому я взял ещё", "answer": "I had little money, so I took more" },
+    ]
+  },
+  {
+    "number": "9",
+    "isChecked": false,
+    "title": "Сравнения",
+    "theory": [
+      { "id": 0, "question": "Степени сравнения для 'односложных' слов", "answer": "Табличка в теории" },
+      { "id": 1, "question": "Степени сравнения для 'многосложных' слов", "answer": "Табличка в теории" },
+      { "id": 2, "question": "Употребление 'В разы больше/меньше'", "answer": "Табличка в теории" },
+      { "id": 3, "question": "Употребление 'Такой же, как'", "answer": "Табличка в теории" },
+      { "id": 3, "question": "Употребление 'Чем ..., тем ...'", "answer": "Табличка в теории" },
+    ],
+    "exercises": [
+      { "id": 0, "question": "Я — художник", "answer": "I am a painter" },
+    ]
   },
 ]
