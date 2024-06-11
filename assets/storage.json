@@ -43,4 +43,29 @@
     ],
     "exercises": []
   },
+  {
+    "number": "5",
+    "isChecked": false,
+    "title": "Глаголы: формы",
+    "theory": [
+      { "id": 0, "question": "1 форма глагола: paint, kill, use", "answer": "Табличка в теории" },
+      { "id": 1, "question": "2 форма глагола: paint, kill, use", "answer": "Табличка в теории" },
+      { "id": 2, "question": "3 форма глагола: paint, kill, use", "answer": "Табличка в теории" },
+      { "id": 3, "question": "1 форма Ving: paint, kill, use", "answer": "Табличка в теории" },
+      { "id": 4, "question": "2 форма Ving: paint, kill, use", "answer": "Табличка в теории" },
+      { "id": 5, "question": "3 форма Ving: paint, kill, use", "answer": "Табличка в теории" }
+    ],
+    "exercises": []
+  },
+  {
+    "number": "6",
+    "isChecked": false,
+    "title": "Местоимения: формы",
+    "theory": [
+      { "id": 0, "question": "1 форма местоимения", "answer": "Табличка в теории" },
+      { "id": 1, "question": "2 форма местоимения", "answer": "Табличка в теории" },
+      { "id": 2, "question": "3 форма местоимения", "answer": "Табличка в теории" }
+    ],
+    "exercises": []
+  },
 ]

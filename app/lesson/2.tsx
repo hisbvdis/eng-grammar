@@ -36,7 +36,7 @@ export default function Lesson1() {
     table {
       border-collapse: collapse;
       /* table-layout: fixed; */
-      inline-size: 800px;
+      inline-size: 850px;
     }
     td {
       padding: 5px;
@@ -63,10 +63,6 @@ export default function Lesson1() {
 
     h2 {
       margin-block: 1em 0;
-    }
-
-    h2:first-of-type {
-      margin-block-start: 0;
     }
 
     .heading {
@@ -105,291 +101,270 @@ export default function Lesson1() {
 </head>
 
 <body>
-  <div style="overflow-y: scroll; max-width: 100%;">
-    <h2>1. Формирование (актив)</h2>
-    <table class="tensesTable">
-      <tbody>
-        <tr>
-          <td class="heading"></td>
-          <td class="heading" colspan="4">Вопрос</td>
-          <td class="heading" colspan="3">Утверждение</td>
-          <td class="heading" colspan="3">Отрицание</td>
-        </tr>
-        <tr>
-          <td rowspan="3" class="heading heading--aside">Будущее</td>
-          <td rowspan="3" class="wideBorderBottom">Will</td>
-          <td>I</td>
-          <td rowspan="3" class="wideBorderBottom">be</td>
-          <td rowspan="3" class="wideBorderBottom wideBorderRight">
-            <span class="verb">paint</span><b>ing</b>
-            (<span class="verb">V</span><b>ing</b>)
-          </td>
-          <td>I</td>
-          <td rowspan="3" class="wideBorderBottom">will be</td>
-          <td rowspan="3" class="wideBorderBottom wideBorderRight">
-            <span class="verb">paint</span><b>ing</b>
-            (<span class="verb">V</span><b>ing</b>)
-          </td>
-          <td>I</td>
-          <td rowspan="3" class="wideBorderBottom">will not be</td>
-          <td rowspan="3" class="wideBorderBottom wideBorderRight">
-            <span class="verb">paint</span><b>ing</b>
-            (<span class="verb">V</span><b>ing</b>)
-          </td>
-        </tr>
-        <tr>
-          <td>He<br />She<br />It</td>
-          <td>He<br />She<br />It</td>
-          <td>He<br />She<br />It</td>
-        </tr>
-        <tr>
-          <td class="wideBorderBottom">We<br />You<br />They</td>
-          <td class="wideBorderBottom">We<br />You<br />They</td>
-          <td class="wideBorderBottom">We<br />You<br />They</td>
-        </tr>
-        <tr>
-          <td rowspan="3" class="heading heading--aside">Настоящее</td>
-          <td>Am</td>
-          <td>I</td>
-          <td rowspan="3" colspan="2" class="wideBorderBottom wideBorderRight">
-            <span class="verb">paint</span><b>ing</b>
-            (<span class="verb">V</span><b>ing</b>)
-          </td>
-          <td>I</td>
-          <td>am</td>
-          <td rowspan="3" class="wideBorderRight wideBorderBottom">
-            <span class="verb">paint</span><b>ing</b>
-            (<span class="verb">V</span><b>ing</b>)
-          </td>
-          <td>I</td>
-          <td>am not</td>
-          <td rowspan="3" class="wideBorderBottom wideBorderRight">
-            <span class="verb">paint</span><b>ing</b>
-            (<span class="verb">V</span><b>ing</b>)
-          </td>
-        </tr>
-        <tr>
-          <td>Is</td>
-          <td>He<br />She<br />It</td>
-          <td>He<br />She<br />It</td>
-          <td>is</td>
-          <td>He<br />She<br />It</td>
-          <td>isn't</td>
-        </tr>
-        <tr>
-          <td class="wideBorderBottom">Are</td>
-          <td class="wideBorderBottom">We<br />You<br />They</td>
-          <td class="wideBorderBottom">We<br />You<br />They</td>
-          <td class="wideBorderBottom">are</td>
-          <td class="wideBorderBottom">We<br />You<br />They</td>
-          <td class="wideBorderBottom">aren't</td>
-        </tr>
-        <tr>
-          <td rowspan="3" class="heading heading--aside">Прошедшее</td>
-          <td rowspan="2">Was</td>
-          <td>I</td>
-          <td rowspan="3" colspan="2" class="wideBorderBottom wideBorderRight">
-            <span class="verb">paint</span><b>ing</b>
-            (<span class="verb">V</span><b>ing</b>)
-          </td>
-          <td>I</td>
-          <td rowspan="2">was</td>
-          <td rowspan="3" class="wideBorderBottom wideBorderRight">
-            <span class="verb">paint</span><b>ing</b>
-            (<span class="verb">V</span><b>ing</b>)
-          </td>
-          <td>I</td>
-          <td rowspan="2">wasn't</td>
-          <td rowspan="3" class="wideBorderBottom wideBorderRight">
-            <span class="verb">paint</span><b>ing</b>
-            (<span class="verb">V</span><b>ing</b>)
-          </td>
-        </tr>
-        <tr>
-          <td>He<br />She<br />It</td>
-          <td>He<br />She<br />It</td>
-          <td>He<br />She<br />It</td>
-        </tr>
-        <tr>
-          <td rowspan="2" class="wideBorderBottom">Were</td>
-          <td class="wideBorderBottom">We<br />You<br />They</td>
-          <td class="wideBorderBottom">We<br />You<br />They</td>
-          <td class="wideBorderBottom">were</td>
-          <td class="wideBorderBottom">We<br />You<br />They</td>
-          <td rowspan="2" class="wideBorderBottom">weren't</td>
-        </tr>
-      </tbody>
-    </table>
+
+  <p><b>Continuous</b> — процесс в момент или в ограниченный период времени</p>
+
+  <h2>1. Формирование (актив)</h2>
+  <table class="tensesTable">
+    <tbody>
+      <tr>
+        <td class="heading"></td>
+        <td class="heading" colspan="4">Вопрос</td>
+        <td class="heading" colspan="3">Утверждение</td>
+        <td class="heading" colspan="3">Отрицание</td>
+      </tr>
+      <tr>
+        <td rowspan="3" class="heading heading--aside">Будущее</td>
+        <td rowspan="3" class="wideBorderBottom">Will</td>
+        <td>I</td>
+        <td rowspan="3" class="wideBorderBottom">be</td>
+        <td rowspan="3" class="wideBorderBottom wideBorderRight">
+          <span class="verb">paint</span><b>ing</b>
+          (<span class="verb">V</span><b>ing</b>)
+        </td>
+        <td>I</td>
+        <td rowspan="3" class="wideBorderBottom">will be</td>
+        <td rowspan="3" class="wideBorderBottom wideBorderRight">
+          <span class="verb">paint</span><b>ing</b>
+          (<span class="verb">V</span><b>ing</b>)
+        </td>
+        <td>I</td>
+        <td rowspan="3" class="wideBorderBottom">will not be</td>
+        <td rowspan="3" class="wideBorderBottom wideBorderRight">
+          <span class="verb">paint</span><b>ing</b>
+          (<span class="verb">V</span><b>ing</b>)
+        </td>
+      </tr>
+      <tr>
+        <td>He<br />She<br />It</td>
+        <td>He<br />She<br />It</td>
+        <td>He<br />She<br />It</td>
+      </tr>
+      <tr>
+        <td class="wideBorderBottom">We<br />You<br />They</td>
+        <td class="wideBorderBottom">We<br />You<br />They</td>
+        <td class="wideBorderBottom">We<br />You<br />They</td>
+      </tr>
+      <tr>
+        <td rowspan="3" class="heading heading--aside">Настоящее</td>
+        <td>Am</td>
+        <td>I</td>
+        <td rowspan="3" colspan="2" class="wideBorderBottom wideBorderRight">
+          <span class="verb">paint</span><b>ing</b>
+          (<span class="verb">V</span><b>ing</b>)
+        </td>
+        <td>I</td>
+        <td>am</td>
+        <td rowspan="3" class="wideBorderRight wideBorderBottom">
+          <span class="verb">paint</span><b>ing</b>
+          (<span class="verb">V</span><b>ing</b>)
+        </td>
+        <td>I</td>
+        <td>am not</td>
+        <td rowspan="3" class="wideBorderBottom wideBorderRight">
+          <span class="verb">paint</span><b>ing</b>
+          (<span class="verb">V</span><b>ing</b>)
+        </td>
+      </tr>
+      <tr>
+        <td>Is</td>
+        <td>He<br />She<br />It</td>
+        <td>He<br />She<br />It</td>
+        <td>is</td>
+        <td>He<br />She<br />It</td>
+        <td>isn't</td>
+      </tr>
+      <tr>
+        <td class="wideBorderBottom">Are</td>
+        <td class="wideBorderBottom">We<br />You<br />They</td>
+        <td class="wideBorderBottom">We<br />You<br />They</td>
+        <td class="wideBorderBottom">are</td>
+        <td class="wideBorderBottom">We<br />You<br />They</td>
+        <td class="wideBorderBottom">aren't</td>
+      </tr>
+      <tr>
+        <td rowspan="3" class="heading heading--aside">Прошедшее</td>
+        <td rowspan="2">Was</td>
+        <td>I</td>
+        <td rowspan="3" colspan="2" class="wideBorderBottom wideBorderRight">
+          <span class="verb">paint</span><b>ing</b>
+          (<span class="verb">V</span><b>ing</b>)
+        </td>
+        <td>I</td>
+        <td rowspan="2">was</td>
+        <td rowspan="3" class="wideBorderBottom wideBorderRight">
+          <span class="verb">paint</span><b>ing</b>
+          (<span class="verb">V</span><b>ing</b>)
+        </td>
+        <td>I</td>
+        <td rowspan="2">wasn't</td>
+        <td rowspan="3" class="wideBorderBottom wideBorderRight">
+          <span class="verb">paint</span><b>ing</b>
+          (<span class="verb">V</span><b>ing</b>)
+        </td>
+      </tr>
+      <tr>
+        <td>He<br />She<br />It</td>
+        <td>He<br />She<br />It</td>
+        <td>He<br />She<br />It</td>
+      </tr>
+      <tr>
+        <td rowspan="2" class="wideBorderBottom">Were</td>
+        <td class="wideBorderBottom">We<br />You<br />They</td>
+        <td class="wideBorderBottom">We<br />You<br />They</td>
+        <td class="wideBorderBottom">were</td>
+        <td class="wideBorderBottom">We<br />You<br />They</td>
+        <td rowspan="2" class="wideBorderBottom">weren't</td>
+      </tr>
+    </tbody>
+  </table>
 
 
-    <h2>2. Формирование (пассив)</h2>
-    <table class="tensesTable">
-      <tbody>
-        <tr>
-          <td class="heading"></td>
-          <td class="heading" colspan="4">Вопрос</td>
-          <td class="heading" colspan="4">Утверждение</td>
-          <td class="heading" colspan="4">Отрицание</td>
-        </tr>
-        <tr>
-          <td rowspan="3" class="heading heading--aside">Будущее</td>
-          <td rowspan="3" colspan="4" class="wideBorderBottom wideBorderRight">Не употребляется</td>
-          <td rowspan="3" colspan="4" class="wideBorderBottom wideBorderRight">Не употребляется</td>
-          <td rowspan="3" colspan="4" class="wideBorderBottom wideBorderRight">Не употребляется</td>
-        </tr>
-        <tr></tr>
-        <tr></tr>
-        <tr>
-          <td rowspan="3" class="heading heading--aside">Настоящее</td>
-          <td>Am</td>
-          <td>I</td>
-          <td rowspan="3" class="wideBorderBottom">being</td>
-          <td rowspan="3" class="wideBorderBottom wideBorderRight">
-            <span class="verb">paint</span><b>ing</b>
-            (<span class="verb">V</span><b>ing</b>)
-          </td>
-          <td>I</td>
-          <td>am</td>
-          <td rowspan="3" class="wideBorderBottom">being</td>
-          <td rowspan="3" class="wideBorderRight wideBorderBottom">
-            <span class="verb">paint</span><b>ing</b>
-            (<span class="verb">V</span><b>ing</b>)
-          </td>
-          <td>I</td>
-          <td>am not</td>
-          <td rowspan="3" class="wideBorderBottom">being</td>
-          <td rowspan="3" class="wideBorderBottom wideBorderRight">
-            <span class="verb">paint</span><b>ing</b>
-            (<span class="verb">V</span><b>ing</b>)
-          </td>
-        </tr>
-        <tr>
-          <td>Is</td>
-          <td>He<br />She<br />It</td>
-          <td>He<br />She<br />It</td>
-          <td>is</td>
-          <td>He<br />She<br />It</td>
-          <td>isn't</td>
-        </tr>
-        <tr>
-          <td class="wideBorderBottom">Are</td>
-          <td class="wideBorderBottom">We<br />You<br />They</td>
-          <td class="wideBorderBottom">We<br />You<br />They</td>
-          <td class="wideBorderBottom">are</td>
-          <td class="wideBorderBottom">We<br />You<br />They</td>
-          <td class="wideBorderBottom">aren't</td>
-        </tr>
-        <tr>
-          <td rowspan="3" class="heading heading--aside">Прошедшее</td>
-          <td rowspan="2">Was</td>
-          <td>I</td>
-          <td rowspan="3" class="wideBorderBottom">being</td>
-          <td rowspan="3" class="wideBorderBottom wideBorderRight">
-            <span class="verb">paint</span><b>ing</b>
-            (<span class="verb">V</span><b>ing</b>)
-          </td>
-          <td>I</td>
-          <td rowspan="2">was</td>
-          <td rowspan="3" class="wideBorderBottom">being</td>
-          <td rowspan="3" class="wideBorderBottom wideBorderRight">
-            <span class="verb">paint</span><b>ing</b>
-            (<span class="verb">V</span><b>ing</b>)
-          </td>
-          <td>I</td>
-          <td>am not</td>
-          <td rowspan="3" class="wideBorderBottom">being</td>
-          <td rowspan="3" class="wideBorderBottom wideBorderRight">
-            <span class="verb">paint</span><b>ing</b>
-            (<span class="verb">V</span><b>ing</b>)
-          </td>
-        </tr>
-        <tr>
-          <td>He<br />She<br />It</td>
-          <td>He<br />She<br />It</td>
-          <td>He<br />She<br />It</td>
-          <td>isn't</td>
-        </tr>
-        <tr>
-          <td rowspan="2" class="wideBorderBottom">Were</td>
-          <td class="wideBorderBottom">We<br />You<br />They</td>
-          <td class="wideBorderBottom">We<br />You<br />They</td>
-          <td class="wideBorderBottom">were</td>
-          <td class="wideBorderBottom">We<br />You<br />They</td>
-          <td rowspan="2" class="wideBorderBottom">aren't</td>
-        </tr>
-      </tbody>
-    </table>
+  <h2>2. Формирование (пассив)</h2>
+  <table class="tensesTable">
+    <tbody>
+      <tr>
+        <td class="heading"></td>
+        <td class="heading" colspan="4">Вопрос</td>
+        <td class="heading" colspan="4">Утверждение</td>
+        <td class="heading" colspan="4">Отрицание</td>
+      </tr>
+      <tr>
+        <td rowspan="3" class="heading heading--aside">Будущее</td>
+        <td rowspan="3" colspan="4" class="wideBorderBottom wideBorderRight">Не употребляется</td>
+        <td rowspan="3" colspan="4" class="wideBorderBottom wideBorderRight">Не употребляется</td>
+        <td rowspan="3" colspan="4" class="wideBorderBottom wideBorderRight">Не употребляется</td>
+      </tr>
+      <tr></tr>
+      <tr></tr>
+      <tr>
+        <td rowspan="3" class="heading heading--aside">Настоящее</td>
+        <td>Am</td>
+        <td>I</td>
+        <td rowspan="3" class="wideBorderBottom">being</td>
+        <td rowspan="3" class="wideBorderBottom wideBorderRight">
+          <span class="verb">paint</span><b>ing</b>
+          (<span class="verb">V</span><b>ing</b>)
+        </td>
+        <td>I</td>
+        <td>am</td>
+        <td rowspan="3" class="wideBorderBottom">being</td>
+        <td rowspan="3" class="wideBorderRight wideBorderBottom">
+          <span class="verb">paint</span><b>ing</b>
+          (<span class="verb">V</span><b>ing</b>)
+        </td>
+        <td>I</td>
+        <td>am not</td>
+        <td rowspan="3" class="wideBorderBottom">being</td>
+        <td rowspan="3" class="wideBorderBottom wideBorderRight">
+          <span class="verb">paint</span><b>ing</b>
+          (<span class="verb">V</span><b>ing</b>)
+        </td>
+      </tr>
+      <tr>
+        <td>Is</td>
+        <td>He<br />She<br />It</td>
+        <td>He<br />She<br />It</td>
+        <td>is</td>
+        <td>He<br />She<br />It</td>
+        <td>isn't</td>
+      </tr>
+      <tr>
+        <td class="wideBorderBottom">Are</td>
+        <td class="wideBorderBottom">We<br />You<br />They</td>
+        <td class="wideBorderBottom">We<br />You<br />They</td>
+        <td class="wideBorderBottom">are</td>
+        <td class="wideBorderBottom">We<br />You<br />They</td>
+        <td class="wideBorderBottom">aren't</td>
+      </tr>
+      <tr>
+        <td rowspan="3" class="heading heading--aside">Прошедшее</td>
+        <td rowspan="2">Was</td>
+        <td>I</td>
+        <td rowspan="3" class="wideBorderBottom">being</td>
+        <td rowspan="3" class="wideBorderBottom wideBorderRight">
+          <span class="verb">paint</span><b>ing</b>
+          (<span class="verb">V</span><b>ing</b>)
+        </td>
+        <td>I</td>
+        <td rowspan="2">was</td>
+        <td rowspan="3" class="wideBorderBottom">being</td>
+        <td rowspan="3" class="wideBorderBottom wideBorderRight">
+          <span class="verb">paint</span><b>ing</b>
+          (<span class="verb">V</span><b>ing</b>)
+        </td>
+        <td>I</td>
+        <td>am not</td>
+        <td rowspan="3" class="wideBorderBottom">being</td>
+        <td rowspan="3" class="wideBorderBottom wideBorderRight">
+          <span class="verb">paint</span><b>ing</b>
+          (<span class="verb">V</span><b>ing</b>)
+        </td>
+      </tr>
+      <tr>
+        <td>He<br />She<br />It</td>
+        <td>He<br />She<br />It</td>
+        <td>He<br />She<br />It</td>
+        <td>isn't</td>
+      </tr>
+      <tr>
+        <td rowspan="2" class="wideBorderBottom">Were</td>
+        <td class="wideBorderBottom">We<br />You<br />They</td>
+        <td class="wideBorderBottom">We<br />You<br />They</td>
+        <td class="wideBorderBottom">were</td>
+        <td class="wideBorderBottom">We<br />You<br />They</td>
+        <td rowspan="2" class="wideBorderBottom">aren't</td>
+      </tr>
+    </tbody>
+  </table>
 
-    <h2>3. Временное поведение</h2>
-    <table class="notesTable">
-      <tbody>
-        <tr>
-          <td class="subHeading" colspan="2"># Пример №1</td>
-        </tr>
-        <tr>
-          <td>I can't understand why he is so selfish. He isn't usually like that</td>
-        </tr>
-        <tr>
-          <td>Не могу понять, почему он такой эгоистичный. Он не такой обычно</td>
-        </tr>
-        <tr>
-          <td class="subHeading" colspan="2"># Пример №2</td>
-        </tr>
-        <tr>
-          <td>The path is icy. Don't slip. Don't worry. I am being very carefull</td>
-        </tr>
-        <tr>
-          <td>Дорожка скользкая. Не подскользнись. — Не переживай. Я очень осторожен</td>
-        </tr>
-      </tbody>
-    </table>
 
-    <h2>4. Случаи употребления</h2>
-    <table class="notesTable">
-      <tbody>
-        <tr>
-          <td class="subHeading" colspan="2"># Процесс (в момент времени)</td>
-        </tr>
-        <tr>
-          <td>I am painting a picture</td>
-          <td class="comment">// Актив:  Я рисую картину (прямо сейчас)</td>
-        </tr>
-        <tr>
-          <td>This picture is being painted</td>
-          <td class="comment">// Пассив: Эта картина рисуется (прямо сейчас)</td>
-        </tr>
-        <tr>
-          <td class="subHeading" colspan="2"># Процесс (в ограниченный период времени)</td>
-        </tr>
-        <tr>
-          <td>I am painting a picture</td>
-          <td class="comment">// Актив:  Я рисую картину (в данный период времени)</td>
-        </tr>
-        <tr>
-          <td>This picture is being painted</td>
-          <td class="comment">// Пассив: Эта картина рисуется (в данный период времени)</td>
-        </tr>
-        <tr>
-          <td class="subHeading" colspan="2"># Точные планы</td>
-        </tr>
-        <tr>
-          <td>I am painting a picture tomorrow</td>
-          <td class="comment">// Актив:  Я рисую картину завтра</td>
-        </tr>
-        <tr>
-          <td>This picture is being painted tomorrow</td>
-          <td class="comment">// Пассив: Эта картина будет рисоваться завтра</td>
-        </tr>
-        <tr>
-          <td class="subHeading" colspan="2"># Изменение</td>
-        </tr>
-        <tr>
-          <td>My painting skills are getting better</td>
-          <td class="comment">// Актив:  Мой навык рисования становится лучше</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+  <h2>3. Случаи употребления</h2>
+  <table class="notesTable">
+    <tbody>
+      <tr>
+        <td class="subHeading" colspan="2"># Процесс (в момент времени)</td>
+      </tr>
+      <tr>
+        <td>I am painting a picture</td>
+        <td class="comment">// Актив:  Я рисую картину (прямо сейчас)</td>
+      </tr>
+      <tr>
+        <td>This picture is being painted</td>
+        <td class="comment">// Пассив: Эта картина рисуется (прямо сейчас)</td>
+      </tr>
+      <tr>
+        <td class="subHeading" colspan="2"># Процесс (в ограниченный период времени)</td>
+      </tr>
+      <tr>
+        <td>I am painting a picture</td>
+        <td class="comment">// Актив:  Я рисую картину (в данный период времени)</td>
+      </tr>
+      <tr>
+        <td>This picture is being painted</td>
+        <td class="comment">// Пассив: Эта картина рисуется (в данный период времени)</td>
+      </tr>
+      <tr>
+        <td class="subHeading" colspan="2"># Точные планы</td>
+      </tr>
+      <tr>
+        <td>I am painting a picture tomorrow</td>
+        <td class="comment">// Актив:  Я рисую картину завтра</td>
+      </tr>
+      <tr>
+        <td>This picture is being painted tomorrow</td>
+        <td class="comment">// Пассив: Эта картина будет рисоваться завтра</td>
+      </tr>
+      <tr>
+        <td class="subHeading" colspan="2"># Изменение</td>
+      </tr>
+      <tr>
+        <td>My painting skills are getting better</td>
+        <td class="comment">// Актив:  Мой навык рисования становится лучше</td>
+      </tr>
+    </tbody>
+  </table>
+
 </body>
 </html>`}} style={{backgroundColor: "transparent"}}/>
       <Link href={`/quiz?lessonNumber=${lesson?.number}&type=theory`} asChild>
