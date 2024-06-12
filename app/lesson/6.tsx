@@ -69,14 +69,14 @@ export default function Lesson1() {
       <tr>
         <th colspan="2" class="heading">Кто</th>
         <th colspan="2" class="heading">Кому / Кого</th>
-        <th colspan="2" class="heading">Чей</th>
+        <th colspan="2" class="heading">Чей<br/>Перед сущ (Без сущ) </th>
       </tr>
       <tr>
         <td>I</td>
         <td>Я</td>
         <td>Me</td>
         <td>Мне / Меня</td>
-        <td>My</td>
+        <td>My (Mine)</td>
         <td>Мой</td>
       </tr>
       <tr>
@@ -92,7 +92,7 @@ export default function Lesson1() {
         <td>Она</td>
         <td>Her</td>
         <td>Ей / Её</td>
-        <td>Her</td>
+        <td>Her (Hers)</td>
         <td>Её</td>
       </tr>
       <tr>
@@ -108,7 +108,7 @@ export default function Lesson1() {
         <td>Мы</td>
         <td>Us</td>
         <td>Нам / Нас</td>
-        <td>Our</td>
+        <td>Our (Ours)</td>
         <td>Наш</td>
       </tr>
       <tr>
@@ -116,7 +116,7 @@ export default function Lesson1() {
         <td>Вы</td>
         <td>You</td>
         <td>Вам / Вас</td>
-        <td>Your</td>
+        <td>Your (Yours)</td>
         <td>Ваш</td>
       </tr>
       <tr>
@@ -124,7 +124,7 @@ export default function Lesson1() {
         <td>Они</td>
         <td>Them</td>
         <td>Им / Их</td>
-        <td>Their</td>
+        <td>Their (Theirs)</td>
         <td>Их</td>
       </tr>
     </tbody>
